@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mohit Deshpande</title>
-  <%= stylesheet_link_tag   "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css", "application", media: "all", "data-turbolinks-track" => true %>
+  <title>MohitDeshpande</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-
 <body>
 
 <%= yield %>
 
-<%= jquery_include_tag :google %>
-<%= javascript_include_tag  "application", "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js", "data-turbolinks-track" => true %>
 </body>
-
 </html>
