@@ -12,18 +12,5 @@
 //
 
 //= require jquery_ujs
-//= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
-
-ready = function() {
-  
-  var windowHeight = $(window).height();
-  
-  // Set screen div height as window height
-  $(".view").height(windowHeight);
-  
-}
-
-$(document).ready(ready);
-$(document).on('page:load', ready);
