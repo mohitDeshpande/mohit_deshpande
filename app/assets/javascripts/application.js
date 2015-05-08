@@ -18,7 +18,7 @@
 
 ready = function() {
   
-  var windowHeight = $(window).height();
+  var windowHeight = $(window).height() + 22;
   
   // Set screen div height as window height
   $(".view").height(windowHeight);

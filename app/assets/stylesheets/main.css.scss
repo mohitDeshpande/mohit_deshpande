@@ -2,6 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html 
+ {
+ height: 100%;
+ margin-bottom: 1px;
+ overflow-y: scroll;
+ overflow-x: hidden;
+ }
+
 /*  HEADER  */
 
 .navbar-toggle {
@@ -16,6 +24,12 @@
 }
 
 /*  BODY  */
+
+body {
+  width:100%;
+  margin-right: -10px;
+}
+
 .view {
   background-size: cover;
   background-position: 50% 50%;
@@ -24,6 +38,11 @@
 
 #hero-banner {
   top: 180px;
+}
+
+.glyphicon-chevron-down {
+  left:50%;
+  font-size: 2.5em;
 }
 
 /* default screen, non-retina */
