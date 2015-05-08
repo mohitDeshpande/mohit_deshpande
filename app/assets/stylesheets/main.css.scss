@@ -3,8 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 /*  HEADER  */
-header {
-  top:1.5em;
+
+.navbar-toggle {
+  border:none;
+}
+
+.nav-btn {
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  text-align: center;
 }
 
 /*  BODY  */
@@ -12,6 +20,10 @@ header {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+#hero-banner {
+  top: 180px;
 }
 
 /* default screen, non-retina */

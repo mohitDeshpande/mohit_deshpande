@@ -13,3 +13,13 @@
 @import "bootstrap";
 @import "*";
 
+$navbar-default-bg: transparent;
+$navbar-default-toggle-icon-bar-bg: #fff;
+
+hr {
+	width: 80%;
+	height: 1px;
+	background: #ffffff;
+	right: 50px;
+}
+
