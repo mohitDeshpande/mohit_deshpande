@@ -20,6 +20,21 @@ header {
   margin-top:-72px;
 }
 
+/* default screem, Retina */
+@media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+      #hero {
+        background-image: url('BG1-xs@2x.jpg');
+        margin-top:-72px;
+      }
+}
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) { 
   #hero {
@@ -28,11 +43,17 @@ header {
   }
 }
 /* Small devices (tablets, 768px and up) RETINA display */
-@media (min-width: $screen-sm-min) and (min-resolution: 2dppx) { 
-  #hero {
-    background-image: url("BG1-sm@2x.jpg");
-    margin-top:-72px;
-  }
+@media 
+    only screen and (min-width: $screen-sm-min) and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-width: $screen-sm-min) and (min--moz-device-pixel-ratio: 2),
+    only screen and (min-width: $screen-sm-min) and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-width: $screen-sm-min) and (min-device-pixel-ratio: 2),
+    only screen and (min-width: $screen-sm-min) and (min-resolution: 192dpi),
+    only screen and (min-width: $screen-sm-min) and (min-resolution: 2dppx) { 
+      #hero {
+        background-image: url("BG1-sm@2x.jpg");
+        margin-top:-72px;
+      }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -43,11 +64,17 @@ header {
   }
 }
 /* Medium devices (desktops, 992px and up) RETINA display */
-@media (min-width: $screen-md-min) and (min-resolution: 2dppx) { 
-  #hero {
-    background-image: url("BG1-md@2x.jpg");
-    margin-top:-72px;
-  }
+@media 
+  only screen and (min-width: $screen-md-min) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-width: $screen-md-min) and (min--moz-device-pixel-ratio: 2),
+  only screen and (min-width: $screen-md-min) and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-width: $screen-md-min) and (min-device-pixel-ratio: 2),
+  only screen and (min-width: $screen-md-min) and (min-resolution: 192dpi),
+  only screen and (min-width: $screen-md-min) and (min-resolution: 2dppx) { 
+    #hero {
+      background-image: url("BG1-md@2x.jpg");
+      margin-top:-72px;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -58,9 +85,15 @@ header {
   }
 }
 /* Large devices (large desktops, 1200px and up) RETINA display */
-@media (min-width: $screen-lg-min) and (min-resolution: 2dppx){ 
-  #hero {
-    background-image: url("BG1-lg@2x.jpg");
-    margin-top:-72px;
-  }
+@media 
+  only screen and (min-width: $screen-lg-min) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-width: $screen-lg-min) and (min--moz-device-pixel-ratio: 2),
+  only screen and (min-width: $screen-lg-min) and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-width: $screen-lg-min) and (min-device-pixel-ratio: 2),
+  only screen and (min-width: $screen-lg-min) and (min-resolution: 192dpi),
+  only screen and (min-width: $screen-lg-min) and (min-resolution: 2dppx) { 
+    #hero {
+      background-image: url("BG1-lg@2x.jpg");
+      margin-top:-72px;
+    }
 }
