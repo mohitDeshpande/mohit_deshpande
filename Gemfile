@@ -22,6 +22,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'jquery-rails'
 gem 'jquery-rails-cdn'
 
+# Use bootstrap as the CSS library
+gem 'bootstrap-sass', '3.2.0'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
