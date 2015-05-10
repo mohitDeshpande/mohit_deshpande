@@ -22,6 +22,11 @@ ready = function() {
   
   // Set screen div height as window height
   $(".view").height(windowHeight);
+  $("#button-to-div2").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#second").offset().top
+    }, 1500);
+  });
 }
 
 $(document).ready(ready);

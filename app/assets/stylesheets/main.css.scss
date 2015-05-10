@@ -28,6 +28,20 @@ html
 body {
   width:100%;
   margin-right: -10px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.bigger {
+  font-size: 190%;
+}
+
+.heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4em;
+  font-weight: 400;
+  color: white;
+  text-shadow: 5px 4px  #4b6677;
 }
 
 .view {
@@ -37,18 +51,21 @@ body {
 }
 
 #hero-banner {
-  top: 180px;
+  position: absolute;
+  top: 18%;
 }
 
-.glyphicon-chevron-down {
-  left:50%;
+.scroll-button {
+  position: absolute;
+  bottom: 0;
+  left:45%;
   font-size: 2.5em;
 }
 
 /* default screen, non-retina */
 #hero {
   background-image: image-url('BG1-xs.jpg');
-  margin-top:-72px;
+  //margin-top:-72px;
 }
 
 /* default screem, Retina */
@@ -61,7 +78,7 @@ body {
     only screen and (min-resolution: 2dppx) {
       #hero {
         background-image: image-url('BG1-xs@2x.jpg');
-        margin-top:-72px;
+        //margin-top:-72px;
       }
 }
 
@@ -70,7 +87,7 @@ body {
 @media (min-width: $screen-sm-min) { 
   #hero {
     background-image: image-url("BG1-sm.jpg");
-    margin-top:-72px;
+    //margin-top:-72px;
   }
 }
 /* Small devices (tablets, 768px and up) RETINA display */
@@ -83,7 +100,7 @@ body {
     only screen and (min-width: $screen-sm-min) and (min-resolution: 2dppx) { 
       #hero {
         background-image: image-url("BG1-sm@2x.jpg");
-        margin-top:-72px;
+        //margin-top:-72px;
       }
 }
 
@@ -91,7 +108,7 @@ body {
 @media (min-width: $screen-md-min) { 
   #hero {
     background-image: image-url("BG1-md.jpg");
-    margin-top:-72px;
+    //margin-top:-72px;
   }
 }
 /* Medium devices (desktops, 992px and up) RETINA display */
@@ -104,7 +121,7 @@ body {
   only screen and (min-width: $screen-md-min) and (min-resolution: 2dppx) { 
     #hero {
       background-image: image-url("BG1-md@2x.jpg");
-      margin-top:-72px;
+      //margin-top:-72px;
     }
 }
 
@@ -112,7 +129,7 @@ body {
 @media (min-width: $screen-lg-min) { 
   #hero {
     background-image: image-url("BG1-lg.jpg");
-    margin-top:-72px;
+    //margin-top:-72px;
   }
 }
 /* Large devices (large desktops, 1200px and up) RETINA display */
@@ -125,6 +142,6 @@ body {
   only screen and (min-width: $screen-lg-min) and (min-resolution: 2dppx) { 
     #hero {
       background-image: image-url("BG1-lg@2x.jpg");
-      margin-top:-72px;
+      //margin-top:-72px;
     }
 }
